@@ -1,0 +1,20 @@
+{
+  "name": "claude-best-practice-live-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "node src/server.js",
+    "client": "vite client",
+    "dev": "concurrently \"npm:server\" \"npm:client\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^9.0.1",
+    "vite": "^5.4.2"
+  }
+}
